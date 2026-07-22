@@ -1,8 +1,11 @@
-def say_hello():
-    print("hello")
-
 def greetWhite():
-    print("hello white")   
+    print("hello white")
 
-if __name__ == "__main__":
-    say_hello()
+def greetBlack():
+    """Prints 'hello black' greeting."""
+    print("hello black")
+
+# Основной код
+print("hello everyone")
+greetWhite()
+greetBlack()
